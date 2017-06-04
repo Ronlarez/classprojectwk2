@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+}
+
+.navigation {
+  background-color: lightblue;
+  padding: 5px;
+  margin: 0;
+  text-align: center;
+}
+.navigation ul {
+  margin: 0;
+  padding: 0;
+}
+.navigation li{
+  display: inline-block;
+  background-color: lightgreen;
+  margin: 10px;
+  padding: 15px;
+}
+
+.navigation a{
+  color: tamato;
+  text-decoration: none;
+
+}
+
+section {
+  background-color: lightgray;
+  display: table;
+  text-align: center;
+  width: 100%;
+}
+
+
+section header h1 {
+  font-size: 2em;
+}
+
+.box {
+  float: left;
+  width: 33.333333333%;
+}
+
+.box img{
+  width: 80%;
+  height: 250px;
+}
+
+.box p{
+  background-color:gold;
+  border: 5px lightgray;
+  margin: 5px;
+  height: 150px;
+  padding: 10px;
+}
